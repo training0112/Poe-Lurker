@@ -42,6 +42,7 @@ namespace Lurker.UI.ViewModels
         private CancellationTokenSource _tokenSource;
         private DockingHelper _dockingHelper;
         private OfferDetailsViewModel _details;
+        private bool _test;
 
         #endregion
 
