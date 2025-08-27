@@ -9,6 +9,7 @@
     <ApplicationIcon>TrayIcon.ico</ApplicationIcon>
 	<Version>2.1.16</Version>
 	<AssemblyName>PoeLurker</AssemblyName>
+	<ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
 
   <ItemGroup>

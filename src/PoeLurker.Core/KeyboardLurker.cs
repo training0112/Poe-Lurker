@@ -70,7 +70,7 @@ public class KeyboardLurker
 
         _settingsService.OnSave += SettingsService_OnSave;
         _keyboardHook = new KeyboardHook(_processId);
-        _ = _keyboardHook.InstallAsync();
+        //_ = _keyboardHook.InstallAsync();
         _hooked = true;
     }
 

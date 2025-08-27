@@ -44,7 +44,7 @@ public class MouseLurker : IDisposable
         _mouseHook.RightButtonUp += MouseHook_RightButtonUp;
         _mouseHook.LeftButtonUp += MouseHook_LeftButtonUp;
         _mouseHook.MouseMove += MouseHook_MouseMove;
-        _mouseHook.InstallAsync();
+        //_mouseHook.InstallAsync();
     }
 
     #endregion

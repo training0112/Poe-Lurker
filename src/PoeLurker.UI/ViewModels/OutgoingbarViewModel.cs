@@ -131,7 +131,7 @@ public class OutgoingbarViewModel : PoeOverlayBase
     /// </summary>
     protected override Task OnActivateAsync(CancellationToken token)
     {
-        _clientLurker.OutgoingOffer += Lurker_OutgoingOffer;
+        //_clientLurker.OutgoingOffer += Lurker_OutgoingOffer;
         _clientLurker.TradeAccepted += Lurker_TradeAccepted;
 
         return base.OnActivateAsync(token);
@@ -145,7 +145,7 @@ public class OutgoingbarViewModel : PoeOverlayBase
     {
         if (close)
         {
-            _clientLurker.OutgoingOffer -= Lurker_OutgoingOffer;
+            //_clientLurker.OutgoingOffer -= Lurker_OutgoingOffer;
             _clientLurker.TradeAccepted -= Lurker_TradeAccepted;
         }
 

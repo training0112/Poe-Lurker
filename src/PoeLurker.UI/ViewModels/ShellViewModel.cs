@@ -251,7 +251,7 @@ public class ShellViewModel : Conductor<Screen>.Collection.AllActive, IViewAware
     protected override async void OnViewLoaded(object view)
     {
         await Task.Delay(200);
-        await _winookService.InstallAsync();
+        //await _winookService.InstallAsync();
 
         ShowInTaskBar = false;
         HideFromAltTab(view as ShellView);
@@ -717,7 +717,7 @@ public class ShellViewModel : Conductor<Screen>.Collection.AllActive, IViewAware
 
         ShowOverlays(process);
 
-        await CheckForUpdate();
+        //await CheckForUpdate();
         await CheckPledgeStatus();
 
         await affixServiceTask;
